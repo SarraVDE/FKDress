@@ -15,7 +15,7 @@ $(function() {
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
+                firstName cd= name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
                  path: "V:/Sarra_drive/Cours/startbootstrap-agency-1.0.6/mail/contact_me.php",
